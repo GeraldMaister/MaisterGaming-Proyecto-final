@@ -1,0 +1,69 @@
+/*
+    *    kb.css
+    *    -------------------------------------------------------------
+    *
+    *    Auteur    :    Okidoo Interactif
+    *    Version   :    1.0.0
+    *    Date      :    Oct 11 2020
+    *
+    *    -------------------------------------------------------------
+    *
+*/
+
+.kb__help {
+    position: relative;
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    background-image: url(../img/banner-kb-help.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #f5f5f5;
+    height: 420px;
+    background-position: 7vw center;
+}
+
+.kb__help > div {
+    position:relative;
+    display:block;
+    margin-left:50%;
+    width:50%;
+}
+
+.kb__help h2,
+.kb-article-content h2 {
+    font-size:34px;
+    font-weight:700;
+}
+
+.kb__help h3,
+.kb-article-content h3 {
+    font-size:28px;
+    font-weight:700;
+}
+
+.kb-article-content img {
+    background-color:#fdfdfd;
+}
+
+.kb__help p {
+    margin-bottom:15px;
+}
+
+.kb__help p.action {
+    margin-top:30px;
+    display:block;
+}
+
+@media screen and (max-width:767px) {
+    .kb__help {
+        background-image:none;
+        height:auto;
+        padding:50px;
+    }
+
+    .kb__help > div {
+        width:100%;
+        margin-left:auto;
+    }
+}

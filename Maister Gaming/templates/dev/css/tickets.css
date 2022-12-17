@@ -1,0 +1,244 @@
+/*
+    *    tickets.css
+    *    -------------------------------------------------------------
+    *
+    *    Auteur    :    Okidoo Interactif
+    *    Version   :    1
+    *    Date      :    29 septembre 2017
+    *
+    *    -------------------------------------------------------------
+    *
+*/
+
+.account.tickets {
+    position:relative;
+}
+
+.account.tickets {}
+
+
+.account.tickets .alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 0;
+    font-size:16px;
+}
+
+.account.tickets .alert.alert-warning {
+    color:#d9534f;
+    border:1px solid #ddd;
+    background-color:#fff;
+}
+
+
+/* Panels */
+
+.account .panel-collapsable > .panel-body-collapsed {
+    display:none;
+}
+
+.account .panel-collapsable > .panel-heading {
+    cursor: pointer;
+}
+
+.account .panel-info { 
+    border:none;
+}
+
+.account .panel-heading .return a,
+.account .panel-heading .return i {
+    color:#fff;
+    opacity:0.7;
+}
+
+.account .panel-heading .return:hover a,
+.account .panel-heading .return:hover i {
+    opacity: 1;
+}
+
+.account .panel-info > .panel-heading {
+    color:#fff;
+    background-color:#2f73f0;
+    border:none;
+    border-radius:0;
+    padding:20px 15px;
+}
+
+.account .panel-body {
+    padding:20px 15px;
+    border-left:1px solid #2f73f0;
+    border-right:1px solid #2f73f0;
+    border-bottom:1px solid #2f73f0;
+}
+
+.account .urgency.low {
+    color:#888;
+}
+
+.account .urgency.medium {
+    color:#ff6600;
+}
+
+.account .urgency.high {
+    color:#cc0000;
+}
+
+.account .panel-heading .collapse-icon {
+    margin-top:4px;
+}
+
+.account .ticket-reply {
+    border-width: 1px;
+    border-style: solid;
+    border-color:#dadada;
+    margin:10px 0 20px 0;
+    padding:0;
+    background-color:#fff;
+}
+
+.account .ticket-reply .user {
+    padding:10px;
+    background-color:#f7f7f7;
+    color:#171717;
+}
+
+.account .ticket-reply .user i {
+    float: left;
+    font-size: 2.6em;
+    padding: 2px 15px;
+}
+
+.account .ticket-reply .user svg {
+    height:42px;
+    float:left;
+    padding:2px 15px 2px 5px;
+}
+
+.account .ticket-reply .user .name {
+    display: block;
+    font-size: 1.1em;
+}
+
+.account .ticket-reply .user .type {
+    display: block;
+    font-weight: 700;
+    font-size: .9em;
+}
+
+.account .ticket-reply.staff .user .type {
+    color:#2f73f0;
+}
+
+.account .ticket-reply .date {
+    float: right;
+    padding: 8px 10px;
+    font-size: .9em;
+}
+
+.account .ticket-reply .message {
+    padding:25px;
+    color:#444;
+}
+
+.account .ticket-reply .message p {
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0 0 8px 0;
+    line-height: 1.8em;
+}
+
+.account .ticket-reply .message pre {
+    background:#d9d9d9;
+    border-radius:0;
+    color:#444;
+    font-family: "Courrier New", sans-serif;
+}
+
+
+.account .ticket-reply input.form-control[type="file"] {
+    height: inherit;
+    margin-bottom: 5px;
+}
+
+.account .ticket-reply .message hr {
+    margin-top:40px;
+    margin-bottom:15px;
+    border-top:1px solid #ddd;
+}
+
+.account .ticket-reply .attachments {
+    padding:25px;
+}
+
+.account .ticket-reply .attachments ul { 
+    padding:0;
+    margin:15px 0 0 0;
+}
+
+.account .ticket-reply .attachments ul li {
+    margin-left: 25px;
+    list-style: square;
+}
+
+.account .ticket-reply .rating-done,
+.account .ticket-reply .rating {
+    padding: 15px;
+    border: 1px dashed #eee;
+    margin: 15px 0 0 0;
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    font-size:22px;
+}
+
+.account .ticket-reply .rating span.star {
+    cursor:pointer;
+}
+
+.account .ticket-reply .rating span.star, 
+.account .ticket-reply .rating-done span.star {
+    font-family: FontAwesome;
+    font-weight: 400;
+    font-style: normal;
+    display: inline-block;
+}
+
+.account .ticket-reply .rating span.star:hover::before, 
+.account .ticket-reply .rating span.star:hover ~ span.star::before, 
+.account .ticket-reply .rating-done span.star.active::before {
+    content: "\f005";
+    color: #2f73f0;
+}
+
+.ticket-reply .rating span.star::before, 
+.ticket-reply .rating-done span.star::before {
+    content: "\f006";
+    padding-right: 0;
+    color: #999;
+}
+
+.account .ticket-reply .rating-done .rated,
+.account .ticket-reply .rating .rated {
+    display: inline-block;
+    font-size: 13px;
+    margin-right:10px;
+}
+
+
+.account .ticketfeedbackstaffcont {
+    border-top:1px solid #ddd;
+    padding-top:35px;
+}
+
+.account .feedbackgroup {
+    margin:15px 0;
+    display:block;
+    padding:25px;
+    background-color:#fafafa;
+}
+
+.account .feedbackgroup.last {}
+
+.account .feedbackgroup .feedbacklabel {
+    font-weight:bold;
+}

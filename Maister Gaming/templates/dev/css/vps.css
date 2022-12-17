@@ -1,0 +1,194 @@
+/*
+    *    vps.css
+    *    -------------------------------------------------------------
+    *
+    *    Auteur    :    Okidoo Interactif
+    *    Version   :    1
+    *    Date      :    19 septembre 2017
+    *
+    *    -------------------------------------------------------------
+    *
+*/
+
+.gh-vps {
+    position:relative;
+}
+
+.gh-vps .banner {
+    min-height:420px;
+    background-color:#171717;
+    background-position:top center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-image:url(../img/vps-server-room.jpg);
+    color:#fff;
+}
+
+.gh-vps .banner h1 {
+    margin:95px 0 55px 0;
+    font-family:'MontserratExtraLight', Arial, sans-serif;
+    font-size:54px;
+    font-weight:normal;
+}
+
+.gh-vps .banner .desc {
+    font-family:'MontserratExtraLight', Arial, sans-serif;
+    font-weight:normal;
+    font-size:32px;
+}
+
+.gh-vps .banner .desc small {
+    display:block;
+    margin-bottom:10px;
+}
+
+.gh-vps .banner .banner-4el {
+    position: relative;
+    width: 980px;
+    margin: 50px auto 50px auto;
+    background: #2f73f0;
+    color: #171717;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.42);
+}
+
+.gh-vps .infobox {
+    position: relative;
+    display: block;
+    text-align: center;
+    padding: 25px 15px;
+}
+
+.gh-vps .infobox .svg {
+    width:64px;
+    height:64px;
+    fill:#fff;
+    margin-bottom:30px;
+}
+
+.gh-vps .infobox span {
+    color:#f7f7f7;
+    line-height:1.4;
+    font-size:14px;
+    font-family:'MontserratLight', Arial, sans-serif;
+}
+
+.gh-vps .selections {
+    background-color:#f7f7f7;
+}
+
+.gh-vps .selections h3 {
+    text-align:center;
+    margin-top:0;
+    font-family:'Montserrat', Arial, sans-serif;
+    font-weight: 700;
+}
+
+.gh-vps .selections .desc {
+    max-width:600px;
+    display:block;
+    margin:0 auto 50px auto;
+}
+
+.gh-vps .selections .col-md-4 {
+    margin-bottom:30px;
+}
+
+.gh-vps .selections .infobox {
+    border: 1px solid #2f73f0;
+    background: #fff;
+    padding:25px 25px 140px 25px;
+
+}
+
+.gh-vps .selections .infobox:hover {
+   box-shadow:0px 5px 10px rgba(47,115,240,0.2)
+}
+
+.gh-vps .selections .infobox h4 {
+    font-weight:normal;
+    margin:0 0 25px 0;
+    color:#2f73f0;
+    font-size:20px;
+}
+
+.gh-vps .selections .infobox .table-features {
+    margin: 0;
+    list-style-type: none;
+    padding: 0 0 30px 0;
+}
+
+.gh-vps .selections .infobox .table-features li {
+    text-align: center;
+    padding: 5px 0;
+    color:#4c4c4c;
+    font-size:14px;
+}
+
+.gh-vps .selections .price-wrapper { 
+    bottom: 25px;
+    position: absolute;
+    width: calc(100% - 50px);
+}
+
+.gh-vps .selections .price-wrapper p {
+    font-family: "Montserrat",sans-serif;
+    font-size: 16px;
+    line-height: 1.42857;
+    margin:0;
+}
+
+.gh-vps .selections .price-wrapper p.price-label {
+}
+
+.gh-vps .selections .price-wrapper p.price {
+    font-size:18px;
+    font-weight:700;
+    margin-bottom:2px;
+}
+.gh-vps .selections .price-wrapper p.yearly_plan {
+    font-size:11px;
+    margin-bottom:20px;
+}
+
+.gh-vps .selections .price-wrapper p.price .cycle {
+    color:#888;
+}
+
+.gh-vps .selections .price-wrapper p.price .cycle:before {
+    content: " / ";
+    padding: 2px;
+}
+
+.gh-vps .selections .small-text {
+    font-size:11px;
+}
+
+
+.game-server-location {
+    padding:50px;
+    position:relative;
+}
+
+.game-server-location h2 {
+    margin:0;
+}
+
+.game-server-location p {
+    color:#2f73f0;
+    position:absolute;
+    bottom:25px;
+    margin:0;
+}
+
+.game-server-location .square-blue {
+    background-color:#a9bbde;
+    border:1px solid #2f73f0;
+    display:inline-block;
+    width:20px;
+    height:14px;
+    margin-right:15px;
+    vertical-align:middle;
+}
+
+/* Configure page */
+

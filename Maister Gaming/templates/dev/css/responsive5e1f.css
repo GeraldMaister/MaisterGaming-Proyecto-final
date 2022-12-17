@@ -1,0 +1,615 @@
+/*
+    *    Responsive.css
+    *    -------------------------------------------------------------
+    *
+    *    Auteur    :    Okidoo Interactif
+    *    Version   :    1
+    *    Date      :    26 septembre 2017
+    *
+    *    -------------------------------------------------------------
+    *
+*/
+
+#return-top .fa-arrow-up{
+    position: fixed;
+    z-index: 9999;
+    float: right;
+    right: 15px;
+    font-size: 26px;
+    bottom: 15px;
+    border: 1px solid #2f73f0;
+    padding: 10px;
+}
+
+#return-top .fa-arrow-up:hover{
+    color: #fff;
+    background-color: #2f73f0;
+}
+
+/* Mobile first queries */
+
+/* Larger than mobile */
+@media screen and (max-width:320px) {
+
+    .game-lore{
+        padding: 35px 15px; 
+    }
+
+    .kb-article{
+        margin-top: 0px !important;
+        padding: 0 15px;
+    }
+
+    .kb-article .kb-article-title h2{
+        font-size: 20px;
+    }
+
+    .knowledgebase-popular{
+        padding: 15px;
+    }
+
+    .knowledgebase-categories{
+        padding: 15px;
+    }
+
+    .our-popular-games h2 svg{
+        width: 60% !important;
+        margin: 0px 25px;
+    }
+
+    .our-popular-games h2{
+        text-align: center;
+    }
+
+    .homepage-servers-information figure{
+        width: 100%;
+    }
+
+    figure img{
+        width: 70%;
+        margin: 0px auto;
+    }
+
+    .footer{
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .homepage-servers-information article{
+        padding-left: 0px;
+    }
+
+    .text-right{
+        margin-top: 10px;
+    }
+
+    .our-popular-games h2{
+        margin-bottom: 15px;
+    }
+
+    .our-popular-games h2 .more{
+        margin: 20px 30px !important;
+        font-size: 12px;
+    }
+
+    .svg .top-nav-lang-arrow .replaced-svg{
+        display: none !important;
+    }
+
+    .btn {
+        margin-top: -4px !important;
+    }
+
+    .padding50 {
+        padding: 50px 15px;
+    }
+
+    .logo a img{
+        padding-left: 31px;
+    }
+
+    .header-lined{
+        height: 100%;
+        padding: 20px 50px 20px 10px !important;
+    }
+
+    .header-lined h1 {
+        font-size: 26px !important;
+    }
+
+    .game-title .game-description-heading .price{
+        font-size: 84px !important;
+        letter-spacing: -5px !important;
+    }
+
+    .game-title .game-description-heading sup{
+        font-size: 35px !important;
+    }
+
+    .game-title .game-description-heading .starting-at{
+        margin-bottom: 0;
+    }
+
+    .game-server-features{
+        height: 1040px !important;
+    }
+
+    .knowledgebase .search-form input[type="text"]{
+        width: 125%;
+        margin: 0 49px 0 -26px;
+    }
+
+    .contact-discord{
+        height: 463px !important;
+        padding: 25px;
+    }
+
+    .contact-discord img{
+        margin-left: -30px;
+    }
+
+    .game-main-description img{
+        width: 100%;
+    }
+
+    .homepage-slider .slider .content h2{
+        font-size: 43px;
+    }
+
+    .homepage-slider .slider .content{
+        top: 37%;
+    }
+
+    .homepage-slider .slider .content .product-price .buttons a{
+        margin-top: 17px !important;
+    }
+
+    .homepage-slider .slider .content .product-price .buttons a:first-child{
+        margin-top: -22px !important;
+    }
+
+    .game-server-about img{
+        padding: 0px 25px 0px 25px;
+        margin-left: -62px;
+    }
+
+    .homepage-game-hosting .game-server-newsletter input[type="email"]{
+        width: 115%;
+        margin-left: -20px;
+        margin-bottom: 15px;
+    }
+
+    .our-popular-games{
+        padding: 15px 50px 65px 50px;
+    }
+
+    .top-page-nav ul li > a{
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width:1024px) {
+
+    .kb-article-content{
+        font-size: 15px;
+    }
+    
+    #return-top .fa-arrow-up{
+        position: fixed;
+        z-index: 9999;
+        float: right;
+        right: 15px;
+        font-size: 25px;
+        bottom: 15px;
+        border: 1px solid #2f73f0;
+        padding: 10px;
+    }
+
+    #return-top .fa-arrow-up:hover{
+        color: #fff;
+        background-color: #2f73f0;
+    }
+
+    .page-content{
+        padding: 50px 15px;
+    }
+
+    .homepage-servers-information figure img{
+        margin: 0px 109px;
+    }
+
+    .homepage-servers-information figure {
+        float: left;
+        position: relative;
+        width: 100%;
+    }
+
+    .homepage-servers-information{
+        padding: 15px;
+    }
+
+    .game-server-about img {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .homepage-servers-information article{
+        padding-left: 30px;
+    }
+
+    .kb-article{
+        margin-top: 0px !important;
+        padding: 0 15px;
+    }
+
+    .kb-article .kb-article-title h2{
+        font-size: 20px;
+    }
+
+    .our-popular-games{
+        padding: 15px 50px 65px 50px;
+    }
+
+    .our-popular-games h2{
+        margin-bottom: 13px;
+        font-size: 32px;
+    }
+
+    .our-popular-games h2 .more{
+        margin: 20px 23%;
+        font-size: 12px;
+    }
+
+    .our-popular-games h2 svg{
+        width: 61% !important;
+        margin: 0px 25px;
+    }
+
+    .our-popular-games h2{
+        text-align: center;
+    }
+
+    #sidebar-wrapper{
+        position: relative !important;
+        width: 100% ;
+    }
+
+    #main-wrapper{
+        margin-left: 0;
+    }
+
+    .top-page-nav{
+        position: relative;
+        width: 100%;
+        right: 0;
+        top: 0;
+        background-color: #2f73f0;
+    }
+
+    .top-page-nav ul{
+        text-align: left;
+        margin-left: 5px;
+    }
+
+    .sous-nav{
+        margin-left: 0px !important; 
+    }
+
+    .top-page-nav ul li{
+        margin-left: 0;
+    }
+
+    .top-page-nav ul li > a{
+        padding:  0px 5px 0px 5px;
+    }
+
+
+    .our-games-grid .game{
+        width: 50%;
+        height: 200px;
+    }
+
+    .our-games-grid .game h3{
+        top: 88%;
+        line-height: 18px;
+    }
+
+    .our-games-grid .game.hover h3{
+        top: 28%;
+    }
+
+    .top-page-nav .nav-lang > li > a, .top-page-nav .nav-user > li > a{
+        padding: 0 7px;
+    }
+
+    .navbar-toggle .icon-bar{
+        background-color: #000;
+        width: 38px;
+        height: 4px;
+        border-radius: 5px;
+    }
+
+    .nav-button{
+        position: absolute;
+        margin-top: 50px;
+        z-index: 99;
+    }
+
+    .navbar{
+        min-height: 0px;
+        margin-bottom: 0px;
+        border: none;
+    }
+
+    .navbar-toggle{
+        margin-left: 15px;
+    }
+
+    .navbar-nav{
+        margin: 30px -15px 7.5px -15px;
+    }
+
+
+    .game-server-features .img-features {
+        display: none;
+    }
+
+    .header-lined{
+        height: 100%;
+        padding: 20px 50px 20px 10px !important;
+    }
+
+    .header-lined h1 {
+        font-size: 26px !important;
+    }
+
+    .game-title .game-description-heading .price{
+        font-size: 111px;
+    }
+
+    .game-title .game-description-heading sup{
+        font-size: 50px;
+    }
+
+    .game-title .game-description-heading .price .small{
+        bottom: 3px;
+        right: 5px;
+    }
+
+    .game-main-description article{
+        display: block;
+        padding: 30px 0px 0px 0px;
+    }
+
+    .game-help h2{
+        line-height: 1.5;
+    }
+
+    .game-server-features{
+        min-height: 920px;
+    }
+
+    .game-help .buttons a{
+        margin: 9px 10px;
+    }
+
+    .gh-vps .banner .banner-4el{
+        width: 100%;
+    }
+
+    .gh-vps .banner h1{
+        margin-top: 0px;    
+        padding-top: 25px;
+    }
+
+    .gh-vps .banner .desc{
+        line-height: 1.1;
+    }
+
+    .kb-article{
+        margin-top: 50px;
+    }
+
+    .page-about .page-about-header p{
+        width: 100%;
+    }
+
+    .knowledgebase .search-form input[type="submit"]{
+        margin-top: 10px;
+    }
+
+    .contact-discord .img-features{
+        display: none;
+    }
+
+    .contact-discord{
+        height: 430px;
+    }
+
+    .btn{
+        margin-top: 0px ;
+    }
+
+    .our-games-grid .game .grid-content{
+        padding-top: 45px;
+    }
+
+    #frmConfigureProduct{
+        padding: 0px 15px 0px 15px;
+    }
+
+    #frmCheckout{
+        padding: 0px 15px 0px 15px;
+    }
+
+    .already-registered clearfix p{
+        padding-left: 15px;
+    }
+
+    .view-cart-items .btn{
+        margin-top: 0px;
+    }
+
+    .btn-checkout{
+        margin-bottom: 18px;
+    }
+
+    #applyPromo .btn{
+        margin-top: 20px;
+    }
+
+    .map-server-buttons {
+        position:relative;
+        top:0;
+        margin-top:0;
+    }
+
+    .map-server-buttons .btn {
+        padding:10px 20px;
+        margin:15px 0;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .our-games-grid .game .grid-content .price .units{
+        font-size: 25px;
+    }
+
+    .btn{
+        margin-top: -14px;
+        padding: 6px 20px;
+        font-size: 13px;
+    }
+
+    .our-games-grid .game .grid-content{
+        padding-top: 45px !important;
+    }
+
+    .our-popular-games h2 svg{
+        width: 60%;
+    }
+
+    .contact .btn {
+        margin-top:0px;
+    }
+}
+
+@media (min-width: 768px) and (max-width:1024px) {
+
+    .our-popular-games h2 svg{
+        width: 20% !important;
+    }
+
+}
+
+@media (max-width: 1024px) {
+
+    .game-server-features .content ul.last {
+        padding-top:0;
+    }
+
+    .our-popular-games h2 svg{
+        width: 20%;
+        margin: 0px 25px;
+    }
+
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+    .navbar-nav .open .dropdown-menu {
+        position: static;
+        float: none;
+        width: auto;
+        margin-top: 0;
+        background-color: transparent;
+        border: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+
+    .our-games-grid .game .grid-content{
+        padding-top: 90px ;
+    } 
+
+    .our-games-grid .game{
+        width: 50% !important;
+        min-height: 235px !important;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .our-games-grid .game{
+        width: 33%;
+        min-height: 325px!important;
+    }
+
+    .our-games-grid .game h3{
+        margin-top: -62px;
+    }
+
+    .our-games-grid .game .grid-content{
+        padding-top: 90px;
+    }
+}
+
+
+
+
+@media (max-width: 1525px) {
+    .our-games-grid .game{
+        width: 33%;
+        min-height: 325px!important;
+    }
+
+    .our-games-grid .game .grid-content{
+        padding-top: 90px;
+    }
+}
+
+@media screen and (min-width:1025px) {
+    #return-top .fa-arrow-up {
+        display:none !important;
+    }
+}
+
+@media screen and (min-width:1921px) {
+
+    .homepage-slider .slider .slide-content img {
+        width:100%!important;
+    }
+}
